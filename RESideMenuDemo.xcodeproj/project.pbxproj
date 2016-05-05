@@ -13,6 +13,12 @@
 		5D6384881CDB14160075922F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6384861CDB14160075922F /* Main.storyboard */; };
 		5D63848A1CDB14160075922F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6384891CDB14160075922F /* Assets.xcassets */; };
 		5D63848D1CDB14160075922F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D63848B1CDB14160075922F /* LaunchScreen.storyboard */; };
+		5D6384961CDB169D0075922F /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6384951CDB169D0075922F /* PersonalCenterController.m */; };
+		5D63849E1CDB17220075922F /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6384991CDB17220075922F /* RECommonFunctions.m */; };
+		5D63849F1CDB17220075922F /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63849B1CDB17220075922F /* RESideMenu.m */; };
+		5D6384A01CDB17220075922F /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63849D1CDB17220075922F /* UIViewController+RESideMenu.m */; };
+		5D6384A31CDB17610075922F /* DemoRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6384A21CDB17610075922F /* DemoRootViewController.m */; };
+		5D6384A61CDB18B10075922F /* PersonalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6384A51CDB18B10075922F /* PersonalSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		5D6384891CDB14160075922F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D63848C1CDB14160075922F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D63848E1CDB14160075922F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6384941CDB169D0075922F /* PersonalCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterController.h; sourceTree = "<group>"; };
+		5D6384951CDB169D0075922F /* PersonalCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterController.m; sourceTree = "<group>"; };
+		5D6384981CDB17220075922F /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		5D6384991CDB17220075922F /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		5D63849A1CDB17220075922F /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		5D63849B1CDB17220075922F /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		5D63849C1CDB17220075922F /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		5D63849D1CDB17220075922F /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		5D6384A11CDB17610075922F /* DemoRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRootViewController.h; sourceTree = "<group>"; };
+		5D6384A21CDB17610075922F /* DemoRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRootViewController.m; sourceTree = "<group>"; };
+		5D6384A41CDB18B10075922F /* PersonalSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalSettingViewController.h; sourceTree = "<group>"; };
+		5D6384A51CDB18B10075922F /* PersonalSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +78,16 @@
 			children = (
 				5D6384801CDB14160075922F /* AppDelegate.h */,
 				5D6384811CDB14160075922F /* AppDelegate.m */,
+				5D6384A11CDB17610075922F /* DemoRootViewController.h */,
+				5D6384A21CDB17610075922F /* DemoRootViewController.m */,
 				5D6384831CDB14160075922F /* ViewController.h */,
 				5D6384841CDB14160075922F /* ViewController.m */,
+				5D6384941CDB169D0075922F /* PersonalCenterController.h */,
+				5D6384951CDB169D0075922F /* PersonalCenterController.m */,
+				5D6384A41CDB18B10075922F /* PersonalSettingViewController.h */,
+				5D6384A51CDB18B10075922F /* PersonalSettingViewController.m */,
 				5D6384861CDB14160075922F /* Main.storyboard */,
+				5D6384971CDB17220075922F /* RESideMenu */,
 				5D6384891CDB14160075922F /* Assets.xcassets */,
 				5D63848B1CDB14160075922F /* LaunchScreen.storyboard */,
 				5D63848E1CDB14160075922F /* Info.plist */,
@@ -77,6 +102,19 @@
 				5D63847E1CDB14160075922F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D6384971CDB17220075922F /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5D6384981CDB17220075922F /* RECommonFunctions.h */,
+				5D6384991CDB17220075922F /* RECommonFunctions.m */,
+				5D63849A1CDB17220075922F /* RESideMenu.h */,
+				5D63849B1CDB17220075922F /* RESideMenu.m */,
+				5D63849C1CDB17220075922F /* UIViewController+RESideMenu.h */,
+				5D63849D1CDB17220075922F /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D6384851CDB14160075922F /* ViewController.m in Sources */,
+				5D63849E1CDB17220075922F /* RECommonFunctions.m in Sources */,
 				5D6384821CDB14160075922F /* AppDelegate.m in Sources */,
+				5D6384A31CDB17610075922F /* DemoRootViewController.m in Sources */,
+				5D6384A61CDB18B10075922F /* PersonalSettingViewController.m in Sources */,
+				5D6384961CDB169D0075922F /* PersonalCenterController.m in Sources */,
+				5D63849F1CDB17220075922F /* RESideMenu.m in Sources */,
+				5D6384A01CDB17220075922F /* UIViewController+RESideMenu.m in Sources */,
 				5D63847F1CDB14160075922F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
